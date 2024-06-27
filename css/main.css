@@ -1,0 +1,161 @@
+/* body {
+    font-family: "PT Sans Caption", sans-serif;
+} */
+
+::selection {
+    background-color: #fec260;
+    color: #a7a6a5;
+}
+
+
+/* --------------------- Start Navbar Section ---------------------  */
+
+.navbar .logo-content .logo-line {
+    font-size: 12px;
+}
+
+/* --------------------- End Navbar Section ---------------------  */
+
+
+/* --------------------- Start Hoome Section ---------------------  */
+
+.home {
+    background-image: url(../image/banner.png);
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+
+.home .form .searchInp::placeholder {
+    color: #555;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.home .form .searchInp {
+    color: #f4f4f4;
+}
+
+.home .form .searchBtn {
+    right: 7px;
+    top: 8px;
+}
+
+.home .number h1 {
+    font-size: 80px;
+    margin-right: 30px;
+}
+
+.home .item-section {
+    background-color: #0e0f15;
+    height: fit-content;
+}
+
+.weather-status {
+    color: #009ad8;
+}
+
+.item-header {
+    background-color: #202434;
+    border: none;
+}
+.itemDayContent > p:first-child {
+    font-size: 20px;
+}
+
+.item {
+    background-color: #282937;
+    text-wrap: nowrap;
+    border: none;
+    height: 370px;
+    width: auto;
+}
+
+.item-footer{
+    padding-bottom: 7%;
+}
+
+.sec-item {
+    background-color: #1e1e2b;
+}
+
+.sec-item .item-header {
+    background-color: #171723;
+}
+
+/* --------------------- End Home Section ---------------------  */
+
+
+
+
+/* --------------------- Start Footer Section ---------------------  */
+
+.footer {
+    background-color: #262936;
+    padding: 50px;
+}
+
+.footer-section {
+    background-color: #262936;
+}
+
+.footer-icons .icon {
+    background-color: #1e202b;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #009ad8;
+    text-decoration: none;
+    font-size: 22px;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.footer .subBtn {
+    right: 20px;
+    top: 10px;
+}
+
+.footer .subInp::placeholder {
+    color: #555;
+}
+
+.footer .subInp {
+    color: #f4f4f4;
+}
+
+.footer-icons .icon:hover{
+    background-color: #009ad8;
+    color: white;
+}
+
+.subBtn{
+    font-size: 14px;
+    top: 6.5px;
+}
+
+.fa-location-arrow{
+    transform: translateY(10%);
+}
+
+
+/* .loader {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 140px;
+    transform: translateX(150%);
+    background: #FFF;
+    box-shadow: -24px 0 #FFF, 24px 0 #FFF;
+    box-sizing: border-box;
+    animation: shadowPulse 2s linear infinite;
+} */
+
+/* --------------------- End Footer Section ---------------------  */
